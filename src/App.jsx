@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-    <Router basename="/cicd-test">
+    <Router basename="/ecomapp">
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
